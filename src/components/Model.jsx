@@ -45,7 +45,7 @@ const Model = () => {
          duration: 2,
         })
     }
-  }, [])
+  }, [size])
 
   useGSAP(() => {
     gsap.to("#heading", {
